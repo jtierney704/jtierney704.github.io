@@ -1,0 +1,23 @@
+.circle {
+               background-color: red;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                -webkit-transition: border-radius 1s, background-color 2s;
+                transition: border-radius 1s, background-color 2s;
+
+                
+            }
+
+@webkit-keyframes  {
+    
+    20% {
+        transform: translate(200px,0px);
+    }
+
+     100% {
+        transform: translate(0px,400px);
+         
+    }
+}
+            
